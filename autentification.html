@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sign up – Scroll &amp; Read</title>
+  <link rel="stylesheet" href="styleauten.css">
+</head>
+<body>
+
+  
+  <div class="main-container">
+    <video class="background-video" autoplay muted loop>
+      <source src="img/bckgrndvid.mp4" type="video/mp4">
+     
+    </video>
+
+    <form class="login-form" action="pagemdp.html" method="get">
+      <h1>Informations Personnels</h1>
+
+      <label for="nom">Nom</label>
+      <input id="nom" name="nom" type="text" placeholder="Entrez votre nom" required>
+
+      <label for="prenom">Prénom</label>
+      <input id="prenom" name="prenom" type="text" placeholder="Entrez votre prénom" required>
+
+      <label for="nomult">Nom d’utilisateur</label>
+      <input id="nomult" name="nomult" type="text" placeholder="Entrez votre nom d’utilisateur" required>
+
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" placeholder="Entrez votre email" required>
+
+      <label for="num">Téléphone</label>
+      <input id="num" name="num" type="tel" placeholder="Entrez votre numéro" required pattern="\d{10}">
+
+      <fieldset>
+        <legend>Genre</legend>
+        <label><input type="radio" name="genre" value="Homme" checked> Homme</label>
+        <label><input type="radio" name="genre" value="Femme"> Femme</label>
+      </fieldset>
+
+      <button type="submit" class="btn">Suivant</button>
+    </form>
+  </div>
+
+  <!-- FOOTER (40vh) -->
+  <footer>
+    <p>&copy; 2025 <a href="index.html" class="accu">Scroll &amp; Read</a></p>
+    <a href="pcontact.html" class="cont">Contactez-nous</a>
+  </footer>
+
+</body>
+</html>

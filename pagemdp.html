@@ -1,0 +1,41 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mot de Passe – Scroll & Read</title>
+  <link rel="stylesheet" href="stylepagemdp.css">
+</head>
+<body>
+
+  
+  <div class="main-container">
+    <video class="background-video" autoplay muted loop>
+      <source src="img/bckgrndvid.mp4" type="video/mp4">
+      Votre navigateur ne supporte pas la vidéo.
+    </video>
+
+    <form class="formu" action="preference.html" method="get" onsubmit="return validatePassword()">
+      <h1>Mot de Passe</h1>
+      <div class="inputmdp">
+        <label class="labelform" for="mdp"><b>Mot de passe</b></label>
+        <input class="inputform" type="password" id="mdp" name="mdp" placeholder="Entrez votre mot de passe" required minlength="8">
+
+        <label class="labelform" for="cmdp"><b>Confirmer le mot de passe</b></label>
+        <input class="inputform" type="password" id="cmdp" name="cmdp" placeholder="Confirmer le mot de passe" required minlength="8">
+      </div>
+      <button type="submit" class="btn">Suivant</button>
+      <p id="error-message"></p>
+    </form>
+  </div>
+
+  
+  <footer>
+    <p>&copy; 2025 <a href="index.html" class="accu">Scroll &amp; Read</a></p>
+    <a href="pcontact.html" class="cont">Contact Nous</a>
+  </footer>
+
+  <script src="scripta.js"></script>
+</body>
+</html>

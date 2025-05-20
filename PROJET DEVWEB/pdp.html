@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inscription</title>
+  <link rel="stylesheet" href="stylepdp.css" />
+</head>
+<body>
+  <div class="main-container">
+    <div class="video-bg">
+      <video autoplay muted loop>
+        <source src="img/bckgrndvid.mp4" type="video/mp4" />
+        Votre navigateur ne supporte pas les vidéos HTML5.
+      </video>
+    </div>
+
+    <form class="forum" action="index.html" method="get">
+      <img class="preview-img" src="" alt="Aperçu de la photo" style="display: none;" />
+
+      <label class="labelform" for="photo">Téléchargez votre photo :</label>
+      <div class="custom-file">
+        <input class="inputform" type="file" name="photo" id="photo" accept="image/*" />
+        <label class="custom-file-label" for="photo">Choisir une photo</label>
+      </div>
+
+      <div class="btns">
+        <button type="submit" class="btn">S’inscrire</button>
+        <a href="pdp.html" class="btn2">Ignorer</a>
+      </div>
+    </form>
+  </div>
+
+  <footer>
+    <p>&copy; Copyrights <a href="index.html" class="accu">Scroll & Read</a></p>
+    <a href="pcontact.html" class="cont">Contactez-nous</a>
+  </footer>
+
+  <script src="scriptpdp.js"></script>
+</body>
+</html>

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="img/logo.jpg">
+    <link rel="stylesheet" type="text/css" href="styleindex.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+
+
+    <title>Scroll & Read</title>
+    
+</head>
+
+<body>
+<div id="cart-popup" class="cart-popup">
+    <div class="cart-content">
+        <h3>Ton Cart</h3>
+        <div id="cart-items">
+            
+        </div>
+        <div class="cart-total">
+            <strong>Total: </strong><span id="cart-total-price">0 DA</span>
+        </div>
+        <button id="close-cart">Close</button>
+        <button id="checkout">Checkout</button>
+    </div>
+</div>
+    <div class="nav">
+        <div class="logo">
+            <a href="index.html" class="logo"><h1 class="logo">Scroll & Read</h1></a>
+        </div>
+        <ul class="menu">
+            <li><a href="#" class="accu">Accueil</a></li>
+            <li><a href="catalogue.html" target="_blank">Catalogue</a></li>
+            <li><a href="commu.html" target="_blank">Espace Communauté</a></li>
+            <li><a href="pcontact.html" target="_blank">Contact</a></li>
+            <li><a href="apropre.html" target="_blank">A propos</a></li>
+            <li class="profile">
+                <i class="fa fa-user"></i>
+                <ul class="dropdown">
+                    <li><a href="login.html" target="_blank">Se connecter</a></li>
+                    <li><a href="autentification.html" target="_blank">S'inscrire</a></li>
+                    <li><a href="#">Déconnexion</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <section class="content">
+        <h1>Lire, c'est voyager sans bouger</h1>
+        <p>Plongez dans notre catalogue et trouvez votre prochaine aventure littéraire !</p>
+        <a href="catalogue.html" target="_blank"><button>DECOUVRIR</button></a>   
+
+
+    </section>
+    <h1 class="produitstitre">Nos Nouveautés</h1><br><br>
+    <section class="sectprod">
+        <div class="produit">
+            <div class="carte">
+                <div class="img"><img src="img/Interieur-nuit.jpg" alt="Interieur-nuit"></div><br>
+                <div class="titre">Intérieur nuit - Nicolas Demorand</div>
+                <div class="desc"><p>Nombre de pages : 112</p><br><p>Date de parution : 27/03/2025</p><br>"Les évènements racontés dans ce livre se déroulent sur plus de vingt ans. Pendant toutes ces années, je me suis tu. Aujourd'hui, j'écris en pensant à toutes celles et ceux, des centaines de milliers, peut-être des millions, qui souffrent en silence du même mal."</div>
+                <div class="box">
+                    <div class="prix">2600 DA</div> 
+                    <button class="acheter" data-book-id="1">Acheter</button>
+                </div>
+            </div>
+            <div class="carte">
+                <div class="img"><img src="img/Hunger-Games-Lever-de-soleil-sur-la-moion.jpg" alt=""></div><br>
+                <div class="titre"> Hunger Games Lever de soleil sur la moisson - Suzanne Collins </div>
+                <div class="desc"><p>Nombre de pages : 480</p><br><p>Date de parution : 20/03/2025</p><br>ls n'utiliseront pas mes larmes pour leur divertissement. "
+                    Haymitch Abernathy
+                    À l'aube des cinquantièmes Hunger Games, la peur s'empare des districts de Panem. Cette année, en l'honneur des Jeux de l'Expiation, le nombre de tributs arrachés à leur famille pour participer à ces jeux cruels sera doublé !</div>
+                <div class="box">
+                    <div class="prix">2900 DA</div>
+                   <button class="acheter" data-book-id="2">Acheter</button>
+                </div>
+            </div>
+            <div class="carte">
+                <div class="img"><img src="img/La-Tres-Catastrophique-Visite-du-Zoo.jpg" alt=""></div><br>
+                <div class="titre">La Très Catastrophique Visite du Zoo - Joel Dicker</div>
+                <div class="desc"><p>Nombre de pages : 256</p><br><p>Date de parution : 04/03/2025</p><br>LE livre à mettre entre toutes les mains "Pendant des années, dans la petite ville où j'ai grandi, les esprits restèrent marqués par les évènements qui se produisirent au zoo local un vendredi de décembre, à quelques jours de Noël.
+                    Et pendant toutes ces années, personne ne sut la vérité sur ce qui s'était réellement passé là-bas. Jusqu'à ce livre."</div>
+                <div class="box">
+                    <div class="prix">2750 DA</div>
+                    <button class="acheter" data-book-id="3">Acheter</button>
+                </div>
+            </div>
+            <div class="carte">
+                <div class="img"><img src="img/H.jpg" alt=""></div><br>
+                <div class="titre">Commandant Servaz - Bernard Minier</div>
+                <div class="desc"><p>Nombre de pages : 538</p><br><p>Date de parution : 27/03/2025</p><br>H comme... Hirtmann Depuis l'évasion de Julian Hirtmann, le plus célèbre des tueurs en série, Martin Servaz n'est pas le seul à enquêter : détectives amateurs sur le Net, fans de true crime, présentateur star du talk-show le plus regardé de France, écrivain de best-sellers, tout le monde part en chasse.</div>
+                <div class="box">
+                    <div class="prix">3350 DA</div>
+                    <button class="acheter" data-book-id="4">Acheter</button>
+                </div>
+            </div>
+        </div>
+        
+    </section> <br><br>
+</section>
+<h1 class="produitstitre">Nos meilleurs Ventes</h1><br><br>
+<section class="sectprod">
+    <div class="produit">
+        <div class="carte">
+            <div class="img"><img src="img/L-art-de-la-guerre.jpg" alt="Interieur-nuit"></div><br>
+            <div class="titre">L'art de la guerre - Tzu Sun</div>
+            <div class="desc"><p>Nombre de pages : 128</p><br><p>Date de parution : 13/04/2022</p><br>Si tu veux que la gloire et les succès t’accompagnent, ne perds jamais de vue la doctrine, le commandement, la discipline, la prévoyance. Car celui qui excelle à résoudre les difficultés le fait avant qu’elles ne surviennent  ; celui qui maîtrise autant l’approche directe et indirecte que la ruse triomphera. Voilà l’art de l’affrontement.
+                Connais-toi toi-même et connais ton ennemi, ta victoire ne sera jamais mise en danger. Connais le terrain, connais le temps, ta victoire sera alors totale.</div>
+            <div class="box">
+                <div class="prix">450 DA</div>
+                <button class="acheter" data-book-id="5">Acheter</button>
+            </div>
+        </div>
+        <div class="carte">
+            <div class="img"><img src="img/Power.jpg" alt=""></div><br>
+            <div class="titre">Les 48 lois du pouvoir - Robert Greene</div>
+            <div class="desc"><p>Nombre de pages : 480</p><br><p>Date de parution : 01/11/2000</p><br>Le pouvoir... on le désire, on le craint, on s'en protège...
+                «Le sentiment de n'avoir aucun pouvoir sur les gens et les événements est difficilement supportable : l'impuissance rend malheureux. Personne ne réclame moins de pouvoir, tout le monde en veut davantage.»
+                Amoral, intelligent, impitoyable et captivant, cet ouvrage colossal condense 3 000 ans d'histoire du pouvoir en 48 lois. Véritable manuel de la manipulation, il analyse la quintessence de cette sagesse millénaire, tirée de la vie des plus illustres..</div>
+            <div class="box">
+                <div class="prix">4100 DA</div>
+                <button class="acheter" data-book-id="6">Acheter</button>
+            </div>
+        </div>
+        <div class="carte">
+            <div class="img"><img src="img/Solo-Leveling-T17.jpg" alt=""></div><br>
+            <div class="titre">Solo Leveling - Chugong</div>
+            <div class="desc"><p>Nombre de pages : 240</p><br><p>Date de parution : 26/03/2025</p><br>Lorsque d'étranges portails sont apparus aux quatre coins du monde, l'humanité a dû trouver une parade pour ne pas finir massacrée par les griffes des monstres des monstres qui en sortent. Dans le même temps, certaines personnes ont développé des capacités permettant de les chasser. Ces combattants intrépides n'hésitent pas à foncer au coeur des donjons pour combattre les créatures qu'ils abritent.</div>
+            <div class="box">
+                <div class="prix">2650 DA</div>
+                <button class="acheter" data-book-id="7">Acheter</button>
+            </div>
+        </div>
+        <div class="carte">
+            <div class="img"><img src="img/One-Piece-Edition-originale-Tome-109.jpg" alt="" ></div><br>
+            <div class="titre">One Piece - Eiichiro Oda</div>
+            <div class="desc"><p>Nombre de pages : 192</p><br><p>Date de parution : 02/04/2025</p><br>Bonney sait désormais que le responsable de l’amnésie de Kuma n’est autre que Saint Saturn en personne ! Lorsqu’elle le voit apparaître devant elle, son sang ne fait qu’un tour et elle n’hésite pas à lui planter son sabre en plein torse ! Hélas, son attaque est sans effet et elle se retrouve dans une situation des plus critiques… jusqu’à ce que l’incroyable se produise. Les aventures de Luffy à la poursuite du One Piece continuent !</div>
+            <div class="box">
+                <div class="prix">1000 DA</div>
+                <button class="acheter" data-book-id="8">Acheter</button>
+            </div>
+        </div>
+    </div>
+    <h1 class="produitstitre">Populaires chez vous</h1><br><br>
+<section class="sectprod">
+    <div class="produit">
+        <div class="carte">
+            <div class="img"><img src="img/Le-Fils-du-pauvre.jpg" ></div><br>
+            <div class="titre">Le Fils du pauvre - Mouloud Feraoun</div>
+            <div class="desc"><p>Nombre de pages : 168</p><br><p>Date de parution : novembre 1995</p><br>RomanUne enfance et une adolescence dans une famille kabyle, pendant l'entre-deux-guerres. C'est, à peine transposée, la jeunesse même de Mouloud Feraoun que nous découvrons. Ce témoignage plein de vérité et d'une émotion qui se teinte volontiers d'humour est d'un admirable conteur, qu'on a pu comparer à Jack London et à Maxime Gorki.</div>
+            <div class="box">
+                <div class="prix">1750 DA</div>
+                <button class="acheter" data-book-id="22">Acheter</button>
+            </div>
+        </div>
+        <div class="carte">
+            <div class="img"><img src="img/Histoire-de-l-Algerie.jpg" ></div><br>
+            <div class="titre">Histoire de l'Algérie - Michel Pierre</div>
+            <div class="desc"><p>Nombre de pages : 968</p><br><p>Date de parution : 13/02/2025</p><br>Aucun autre pays n’a de liens aussi denses et complexes avec la France que l’Algérie, au point que le simple énoncé du nom suscite opinions tranchées et sentiments passionnels.Aucun autre pays n’a de liens aussi denses et complexes avec la France que l’Algérie, au point que le simple énoncé du nom suscite opinions tranchées et sentiments passionnels.
+Afin de comprendre, il faut recourir à un récit de temps long qui inclut la Préhistoire et l’Antiquité romaine avant que le temps de l’islam ne donne naissance à de nouvelles.</div>
+            <div class="box">
+                <div class="prix">2900 DA</div>
+                <button class="acheter" data-book-id="23">Acheter</button>
+            </div>
+        </div>
+        <div class="carte">
+            <div class="img"><img src="img/L-Opium-et-le-baton.jpg" ></div><br>
+            <div class="titre">L'Opium et le bâton - Mouloud Mammeri</div>
+            <div class="desc"><p>Nombre de pages : 320</p><br><p>Date de parution : 23/02/2012</p><br>« Les ans et les générations, les soleils et les pluies, les guerres et la paix ont modelé ce village qui ne ressemble à nul autre. Ce que des siècles ont fait il suffit – fffffff (il souffla sur ses doigts) – du vent d’une nuit pour le détruire, que ce soit la nuit du soleil ou celle de vos esprits. » Tala, niché dans les montagnes, est le village de Bachir et de sa famille. Piégés, déchirés entre le FLN et l’armée française, ses habitants s’interrogent : et si Tala n’était qu’une étoile morte ? Certains comme Tayeb ont...</div>
+            <div class="box">
+                <div class="prix">2200 DA</div>
+                <button class="acheter" data-book-id="24">Acheter</button>
+            </div>
+        </div>
+        <div class="carte">
+            <div class="img"><img src="img/Jours-de-Kabylie.jpg" alt="" ></div><br>
+            <div class="titre">Jours de Kabylie - Mouloud Feraoun</div>
+            <div class="desc"><p>Nombre de pages : 160</p><br><p>Date de parution : mars 2002</p><br>Les récits regroupés dans ces Jours de Kabylie apparaissent tels d'indispensables compléments au Journal de Mouloud Feraoun et aux situations géographiques et narratives de son œuvre romanesque. Les illustrations de Charles Brouty, fin connaisseur de l'Algérie, ne sont pas de simples «mises en images» mais s'intègrent véritablement au texte pour s'y fondre et lui donner du relief</div>
+            <div class="box">
+                <div class="prix">1350 DA</div>
+                <button class="acheter" data-book-id="25">Acheter</button>
+            </div>
+        </div>
+    </div>
+    <script src="scripta.js"></script>
+    <script src="scriptcarte.js"></script>
+ <footer>
+  <div class="footer-content">
+    <div class="social-icons">
+      <a href="https://gmail.com" target="_blank" aria-label="Gmail">
+        <img src="https://cdn-icons-png.flaticon.com/24/732/732200.png" alt="Gmail">
+      </a>
+      <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+        <img src="https://cdn-icons-png.flaticon.com/24/2111/2111463.png" alt="Instagram">
+      </a>
+      <a href="https://facebook.com/" target="_blank" aria-label="Facebook">
+        <img src="https://cdn-icons-png.flaticon.com/24/733/733547.png" alt="Facebook">
+      </a>
+    </div>
+    <div class="contact-info">
+      <p>Téléphone : (+213) 050000000</p>
+      <p>Email : projet.dev.web@fgei.ummto.dz</p>
+    </div>
+  </div>
+
+  <p>&copy;Copyrights <a href="index.html" class="bacc">Scroll & Read</a></p>
+  <a href="pcontact.html" class="ex">Contact Nous</a>
+  <a href="apropre.html" class="ex">A propre de Nous</a>
+</footer> 
+
+</body>
+</html>

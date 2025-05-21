@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Barre de navigation */
+.nav {
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.nav .logo {
+    color: darkred;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu li {
+    position: relative;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding-bottom: 4px;
+    transition: border 0.3s;
+}
+
+.menu li a:hover,
+.menu li .accu {
+    border-bottom: 4px solid red;
+}
+
+.profile {
+    cursor: pointer;
+}
+
+.profile .fa-user {
+    color: white;
+    font-size: 1.2em;
+}
+
+.profile .dropdown {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background-color: white;
+    color: #333;
+    list-style: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    overflow: hidden;
+    min-width: 150px;
+}
+
+.profile:hover .dropdown {
+    display: block;
+}
+
+.profile .dropdown li a {
+    display: block;
+    padding: 10px 15px;
+    color: #333;
+    text-decoration: none;
+}
+
+.profile .dropdown li a:hover {
+    background-color: #f0f0f0;
+}
+
+/* Espace de discussion */
+.discussion-container {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+.discussion-container h2 {
+    color: darkred;
+    margin-bottom: 20px;
+}
+
+.message {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+}
+
+.message strong {
+    color: #333;
+}
+
+.message-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.message-form input,
+.message-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+.message-form button {
+    align-self: flex-start;
+    padding: 10px 20px;
+    background-color: darkred;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.message-form button:hover {
+    background-color: red;
+}
+footer {
+  margin-top: 450px;
+  background: black;
+  height: 50vh;
+  color: white;
+  text-align: center;
+  line-height: 10vh;
+  padding: 20px 10px;
+  box-sizing: border-box;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 900px;  /* limite la largeur */
+  margin: 0 auto 20px auto;
+}
+
+.social-icons a {
+  margin-right: 15px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.social-icons a img {
+  width: 24px;
+  height: 24px;
+  filter: invert(100%); /* pour rendre icones blanches */
+  transition: filter 0.3s ease;
+}
+
+.social-icons a:hover img {
+  filter: invert(55%) sepia(85%) saturate(300%) hue-rotate(300deg); /* un effet couleur au hover */
+}
+
+.contact-info p {
+  margin: 0 0 5px 0;
+  font-size: 14px;
+}
